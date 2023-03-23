@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coletor REC Recicla</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <style>
+        div.corpoempresa{
+            height: 580px;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <form action="">
+        <div class="corpoempresa">
+        <h1>Cadastro Coletor <br> REC Recicla</h1>
+        <div class="campo">
+        <label for="nome">Nome: </label>
+        <input type="nome" id="nome"> <br> <br>
+        <label for="sobrenome">Sobrenome: </label>
+        <input type="nome" id="nome"> <br> <br>
+        <label for="cpf">CPF: </label>
+        <input type="tel" id="cpf"> <br> <br>
+        <label for="telefone" id="telefone">Telefone: </label>
+        <input type="tel" id="telefone"> <br> <br>
+        <label for="email" id="email">E-mail: </label>
+        <input type="email" id="email">
+        </div>
+    
+        <div class="localidade">
+            <label for="estado" id="estado">Estado: </label>
+                <select name="estado" id="estado">
+                <option value="" selected disabled value>Selecione</option>
+                <option value="">AC</option>
+                <option value="">AL</option>
+                <option value="">AP</option>
+                <option value="">AM</option>
+                <option value="">BA</option>
+                <option value="">CE</option>
+                <option value="">DF</option>
+                <option value="">ES</option>
+                <option value="">GO</option>
+                <option value="">MA</option>
+                <option value="">MT</option>
+                <option value="">MS</option>
+                <option value="">MG</option>
+                <option value="">PA</option>
+                <option value="">PB</option>
+                <option value="">PR</option>
+                <option value="">PE</option>
+                <option value="">PI</option>
+                <option value="">RR</option>
+                <option value="">RO</option>
+                <option value="">RJ</option>
+                <option value="">RN</option>
+                <option value="">RS</option>
+                <option value="">SC</option>
+                <option value="">SP</option>
+                <option value="">SE</option>
+                <option value="">TO</option>
+                </select>
+                <label for="cidade">Cidade: </label>
+                <input type="text" name="cidade">
+        </div>
+        
+    
+        <div class="eco-friendly">
+            <label for="eco-friendly">Você contem reconhecimento Eco-Friendly?</label>
+            <label for="eco-friendly"> <br>
+            <input type="radio" name="eco-friendly" value="sim">SIM
+            </label>
+            <label for="eco-friendly">
+            <input type="radio" name="eco-friendly" value="sim">NÃO
+            </label>
+        </div> 
+    
+        <div class="campo">
+            <label for="material">Qual material você recicla?</label>
+            <br><br>
+            <input type="checkbox">Vidro
+            <input type="checkbox">Plástico
+            <input type="checkbox">Papelão <br>
+            <input type="checkbox">Metal
+            <input type="checkbox">Resíduos Perigosos
+            <input type="checkbox">Resíduos Hospitalar <br>
+            <input type="checkbox">Resíduos Orgânicos
+            <input type="checkbox">Resíduos Radiativos
+        </div>
+        </form>
+        <button><a href="conclusao.html">Concluir</a></button>
+        </div></main>
+</body>
+</html>

@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+main{
+  margin: 0 0 10px 0;
+}
+
+body{
+  background-color: #1D3A16;
+  color: white;
+  text-align: center;
+}
+  .empresas {
+    float: left;
+  }
+  
+  .coletor {
+    float: right;
+  }
+
+
+div .coletor{
+    background-color: #5bba486e;
+    width: 250px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 5px black;
+}
+
+div .empresas{
+    background-color: #5bba486e;
+    width: 250px;
+    height: 420px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+
+.eu{
+  width: 505px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+div .coletor:hover, .empresas:hover {
+  background-color: #5fbf52;
+}
+
+img #carro{
+  width: 300px;
+}
+img{
+  height: 150px;
+}
+
+h2{
+  background-color: rgb(3, 97, 3);
+  border-radius: 2px;
+  width: 250px;
+  text-align: center;
+  margin: auto;
+  margin-top: 0px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+a{
+  color: white;
+  
+}
+
+h3{
+  padding: 0px 20px;
+}
+
+h1{
+  margin: auto;
+  width: 280px;
+  text-align: center;
+}
+
+p{
+  text-align: justify;
+  margin: 5px 10px;
+}
+
+h4{
+    margin: auto;
+    text-align: center;
+   padding: 10px;
+   color: #24a105bb;
+}
+
+.corpoempresa{
+  border-radius: 20px;
+  background-color: #5bba486e;
+  height: 550px;
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+.campo{
+  margin-top: 10px;
+  text-align: left;
+  padding:15px;
+}
+
+.eco-friendly{
+  padding-top: 30px;
+}
+
+.localidade{
+  padding-top: 10px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+button:hover{
+  background-color: #3dd317;
+}
+
+a:hover{
+  color: white;
+}
+
+button{
+  text-align: center;
+  padding: center;
+  margin: 05px;
+}
+
+.corpoempresa>h1{
+  background-color: rgb(3, 97, 3);
+  border-radius: 2px;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+input{
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px black;
+}
+
+input:focus{
+  background-color: #beffb6;
+}
+
+main.fim{
+  margin-top: 100px;
+}
